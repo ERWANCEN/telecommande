@@ -1,19 +1,21 @@
+/* remise à 0 de valeurs natives */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* réglages table */
 table {
-    border-spacing: 10px;
-    border: 1px solid black;
-    margin: auto;
-    margin-top: 50px;
+    border-spacing: 10px; /* espacement entre les cellules */
+    border: 1px solid black; /* bordure du tableau complet */
+    margin: auto; /* table au centre */
+    margin-top: 50px; /* table à 50px du top */
 }
 
 td {
-    width: 30px;
-    height: 60px;
-    border: 1px solid black;
-    text-align: center;
+    width: 30px; /* largeur cellules */
+    height: 60px; /* hauteur cellules */
+    border: 1px solid black; /* bordure cellules */
+    text-align: center; /* placement texte au centre des cellules */
 }
